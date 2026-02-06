@@ -8,7 +8,7 @@ function newPrice(currentPrice, discount) {
     discount < 0 ||
     discount > 100
   ) {
-    return 'invalid';
+    return 'Invalid';
   }
   const discountAmmount = (currentPrice * discount) / 100;
   const finalPrice = currentPrice - discountAmmount;

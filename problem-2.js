@@ -2,7 +2,7 @@
 function validOtp(otp) {
   // You have to write your code here
   if (typeof otp !== 'string') {
-    return 'invalid';
+    return 'Invalid';
   }
   let isValid = false;
   let length = otp.length;
