@@ -12,6 +12,6 @@ function validOtp(otp) {
   return isValid;
 }
 
-const otp = 'ph-10985';
+const otp = 'ph-1098598';
 const result = validOtp(otp);
 console.log(result);
