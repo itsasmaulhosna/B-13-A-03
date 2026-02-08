@@ -16,10 +16,10 @@ function gonoVote(array) {
   }
   if (Yes > No) {
     valid = true;
-  } else if (Yes < No) {
-    valid = false;
-  } else {
+  } else if (Yes == No) {
     valid = 'equal';
+  } else {
+    valid = false;
   }
   return valid;
 }

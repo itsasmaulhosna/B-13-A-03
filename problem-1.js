@@ -15,7 +15,7 @@ function newPrice(currentPrice, discount) {
   return finalPrice.toFixed(3);
 }
 
-const currentPrice = 500;
+const currentPrice = true;
 const discount = -34;
 const result = newPrice(currentPrice, discount);
 console.log(result);

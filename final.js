@@ -29,6 +29,7 @@ function validOtp(otp) {
   return isValid;
 }
 
+/*function signature/sample */
 function finalScore(omr) {
   //write your code here
   const total = omr.right + omr.wrong + omr.skip;
@@ -39,6 +40,7 @@ function finalScore(omr) {
   return Math.round(result);
 }
 
+/*function signature/sample */
 function gonoVote(array) {
   //write your code here
   if (!Array.isArray(array)) {
@@ -56,10 +58,10 @@ function gonoVote(array) {
   }
   if (Yes > No) {
     valid = true;
-  } else if (Yes < No) {
-    valid = false;
-  } else {
+  } else if (Yes == No) {
     valid = 'equal';
+  } else {
+    valid = false;
   }
   return valid;
 }
